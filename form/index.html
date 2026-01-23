@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="form-container">
+    <div class="center-text">
+    <a href="">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="100">
+</a></div>
+
+    <h1 class="center-text">Sign up for GitHub</h1>
+    <hr class="transparency">
+    <br>
+ <button class="google">
+    <a href="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="20">
+    </a> Google
+ </button>
+ <br>
+ <button class="apple_id">
+    <a href="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="20">
+    </a>AppleID
+ </button>
+
+    <form>
+  <h3><label for="your@gmail.com">Email`</label><br></h3>
+  <input type="email"
+         required
+         pattern=".*@gmail\.com"
+         title="Use @gmail.com"
+         placeholder="Email">
+
+
+
+  <h3><label for="your@password">Password`</label><br></h3>
+  <input type="password"
+         required
+         pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}"
+         title="Uppercase, lowercase, symbol, 8 chars"
+         placeholder="Password">
+         <p class="transparency"> Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter</p>
+  <h3><label for="Username">Username`</label><br></h3>
+  <input type="Username"
+        required
+         title="Must be unique name"
+         placeholder="Username">
+        <p class="transparency"> Username may only contain alphanumeric characters or single hyphens,and cannot begin or end with a hyphen</p>
+
+
+
+<h3><label for="Your Country/Region`">Your Country/Region`</label><br></h3>
+
+       <select class="box" id="country" name="country">
+                <option value="">Pick your Country</option>
+                <option value="">United States</option>
+                <option value="">Canada</option>
+                <option value="">Cambodia</option>
+                <option value="">India</option>
+                <option value="">Siemland</option>
+                <option value="">Greenland</option>
+               
+        </select>
+
+
+    <p class="transparency"> For compliance reasons, we're required to collect country information to send you occasional updates and announcements.</p>
+<div class="center-text">
+    <hr class="transparency">
+    
+  <th><strong><button type="submit">Create account ></button></strong></th>
+</div>
+</form>
+</div> 
+</body>
+</html>

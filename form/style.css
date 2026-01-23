@@ -1,0 +1,76 @@
+.center-text{
+    text-align:center;
+}
+
+  input {
+    width: 400px;      
+    height: 28px;      
+    font-size: 18px;   
+    
+  }
+
+  button {
+    background-color: rgb(7, 19, 9);
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    opacity: 1;
+    color: white;
+  }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f6f8fa; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+
+
+
+.transparency{
+    opacity: 0.5;
+}
+.box{
+    width: 410px;
+    font-size: 18px;
+    
+    
+}
+.google{
+    width: 100%;
+    background-color: #f6f8fa;
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 140px;
+    gap: 20px;
+    align-items: center;
+}
+.apple_id{
+    width: 100%;
+    background-color: #f6f8fa;
+    color: black;
+    font-weight:500;
+    font-size: 20px;
+    display: flex;
+    padding-left: 140px;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
